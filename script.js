@@ -21,7 +21,7 @@ function handleButtonClick(buttonValue) {
     } else if (buttonValue === "AC") {
         // Clear the calculator
         clear();
-    } else if (buttonValue === "←") {
+    } else if (buttonValue === "⬅️") {
         // Backspace functionality
         backspace();
     } else if (buttonValue === "=") {
