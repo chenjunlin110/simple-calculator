@@ -24,7 +24,7 @@ function handleButtonClick(buttonValue) {
     } else if (buttonValue === "⬅️") {
         // Backspace functionality
         backspace();
-    } else if (buttonValue === "=") {
+    } else if (buttonValue === "🟰") {
         // Evaluate the operation
         evaluate();
     } else {
@@ -127,4 +127,4 @@ document.querySelectorAll('button').forEach(button => {
 });
 
 // Initialize the display
-// updateDisplay();
+updateDisplay();
